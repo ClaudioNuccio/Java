@@ -11,7 +11,7 @@ stringLength("Stringlengthcheck");
             System.out.println("Lunghezza minore di 10");
         }
         else {
-            System.out.println("Lunghezza uguale a dieci");
+            System.out.println("Lunghezza pari a dieci");
         }
 
     }
