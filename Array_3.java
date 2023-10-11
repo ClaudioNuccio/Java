@@ -1,16 +1,26 @@
 package Java;
 
 import java.util.Arrays;
+import java.util.LinkedHashSet;
+import java.util.Set;
 
 public class Array_3 {
-    public static void main (String[] args){
-        int [] array_1 = {1,1,2,3,4,4,5,6,8,8};
-        int [] array_2 = new int [array_1.length];
-        for(int i = 0; i < array_1.length; i++){
-            if (array_1[i] == array_1[i+1]) {
-                array_2[i] = array_1[i];
-            }
+    public static void removeDupInIntArray(int[] array) {
+        Set<Integer> noDupes = new LinkedHashSet<Integer>();
+        for (int i = 0; i < array.length; i++) {
+            noDupes.add(array [i]);
         }
-        System.out.println(Arrays.toString(array_2));
+        System.out.println(noDupes);
+    }
+    public static void main (String []args){
+        int [] arrayOne = {1,1,2,3,3,4,5,6,7,7,8,9,9};
+     removeDupInIntArray(arrayOne);
     }
 }
+
+
+
+
+
+
+
