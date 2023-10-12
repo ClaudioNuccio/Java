@@ -15,17 +15,17 @@ public class Array_3 {
             int index = 0;
             int dupes = 0;
             boolean change;
-            boolean zero = true;
+            boolean zero = false;
             for (int i = 0; i < length; i++) {
                 change = true;
                 for (int j = 0; j < length; j++) {
-                    if (arrayDupes[i] == 0 && zero) {
-                        zero = false;
+                  if (arrayDupes[i] == temp[j]) {
+                        change = false;
+                    }
+                    if (arrayDupes[i] == 0 && !zero) {
+                        zero = true;
                         dupes--;
-                    } else if (arrayDupes[i] == 0 && !zero) {
-                        change = false;
-                    } else if (arrayDupes[i] == temp[j]) {
-                        change = false;
+                        temp [index++] = arrayDupes[i];
                     }
 
                 }
@@ -47,8 +47,12 @@ public class Array_3 {
         int [] dupes = {1,2,3,3,4,5,5,6,7,8,9,9,11,12,13,14,15,0,0};
         int length = dupes.length;
         int [] zeros = {0};
+        int [] allDupes = {1,1,1,1,1,1,1,1,1};
+        int [] noDupesUnsorted = {3,4,2,6,7,0,121,31};
         removeDup(dupes, length);
         removeDup(zeros, zeros.length);
+        removeDup(allDupes, allDupes.length);
+        removeDup(noDupesUnsorted, noDupesUnsorted.length);
     }
 
 }
