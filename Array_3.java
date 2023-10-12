@@ -50,12 +50,14 @@ public class Array_3 {
         int [] noDupesUnsorted = {3,4,2,6,7,0,121,31};
         int [] negatives = {-1,-6,-8,0,-10,};
         int [] three = {0,1,2};
+        int [] fullZeros = {0,0,0,0,0};
         removeDup(dupes, length);
         removeDup(zeros, zeros.length);
         removeDup(allDupes, allDupes.length);
         removeDup(noDupesUnsorted, noDupesUnsorted.length);
         removeDup(negatives,negatives.length);
         removeDup(three, three.length);
+        removeDup(fullZeros, fullZeros.length);
     }
 
 }
