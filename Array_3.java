@@ -25,7 +25,7 @@ public class Array_3 {
                     if (arrayDupes[i] == 0 && !zero) {
                         zero = true;
                         dupes--;
-                        temp [index++] = arrayDupes[i];
+                        index++;
                     }
 
                 }
