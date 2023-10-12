@@ -7,8 +7,8 @@ public class Array_3 {
     public static int[] removeDup(int[] arrayDupes, int length) {
         if (length == 0 || length == 1)
         {
-            System.out.println("This Array doesn't have any dupes because it's too small");
             System.out.println(Arrays.toString(arrayDupes));
+            System.out.println("This Array doesn't have any dupes because it's too small");
             return arrayDupes;
         }
             int temp[] = new int[length];
