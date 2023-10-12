@@ -49,10 +49,12 @@ public class Array_3 {
         int [] zeros = {0};
         int [] allDupes = {1,1,1,1,1,1,1,1,1};
         int [] noDupesUnsorted = {3,4,2,6,7,0,121,31};
+        int [] negatives = {-1,-6,-8,0,-10,};
         removeDup(dupes, length);
         removeDup(zeros, zeros.length);
         removeDup(allDupes, allDupes.length);
         removeDup(noDupesUnsorted, noDupesUnsorted.length);
+        removeDup(negatives,negatives.length);
     }
 
 }
