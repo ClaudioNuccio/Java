@@ -6,8 +6,8 @@ public class While_loop {
         int i = 0 ;
         int sum = 0 ;
         while (i < 10){
-            i++;
             sum =sum + i ;
+            i++;
         }
         System.out.println(sum);
     }
