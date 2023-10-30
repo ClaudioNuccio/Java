@@ -2,7 +2,7 @@ package Java;
 
 import java.util.Scanner;
 
-public class exception_1 {
+public class Exception_1 {
     public static void myException (int limiteSuperiore, int limiteInferiore) {
         try {
             Scanner scanner = new Scanner(System.in);
