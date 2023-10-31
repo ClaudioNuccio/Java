@@ -19,6 +19,9 @@ public class Hashset_3 {
                 System.out.println(check + " è presente e sarà rimosso dal set");
                 hashSet.remove(check);
             }
+            else {
+                System.out.println(check + "Non è presente nel set");
+            }
         }
         System.out.println("Il tuo Set adesso  contiene " + hashSet);
     }
