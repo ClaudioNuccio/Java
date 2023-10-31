@@ -21,8 +21,9 @@ public class Exception_1 {
             System.out.println("Il numero inserito è fuori dal range desiderato");
         }
     }
-    public static void main (String[]args){
-        myException(30,10);
+
+    public static void main(String[] args) {
+        myException(30, 10);
 
     }
 }

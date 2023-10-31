@@ -13,7 +13,7 @@ public class Hashset_2 {
         int howManyNumbers = scanner.nextInt();
         for (int j = 0; j < howManyNumbers; j++) {
             System.out.println("Inserire quale  numeri vuoi controllare nel set");
-           Integer check = scanner.nextInt();
+            Integer check = scanner.nextInt();
             if (hashSet.contains(check)) {
                 System.out.println(check + " è presente nel set");
             } else {
@@ -22,7 +22,8 @@ public class Hashset_2 {
         }
         System.out.println("Il tuo Set contiene " + hashSet);
     }
-    public static void main (String [] args){
+
+    public static void main(String[] args) {
         myHashSet();
     }
 }

@@ -18,14 +18,14 @@ public class Hashset_3 {
             if (hashSet.contains(check)) {
                 System.out.println(check + " è presente e sarà rimosso dal set");
                 hashSet.remove(check);
-            }
-            else {
+            } else {
                 System.out.println(check + " Non è presente nel set");
             }
         }
         System.out.println("Il tuo Set adesso  contiene " + hashSet);
     }
-    public static void main (String [] args){
+
+    public static void main(String[] args) {
         myHashSet();
     }
 }
