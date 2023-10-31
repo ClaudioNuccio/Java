@@ -20,7 +20,7 @@ public class Hashset_3 {
                 hashSet.remove(check);
             }
             else {
-                System.out.println(check + "Non è presente nel set");
+                System.out.println(check + " Non è presente nel set");
             }
         }
         System.out.println("Il tuo Set adesso  contiene " + hashSet);
