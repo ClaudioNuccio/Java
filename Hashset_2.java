@@ -11,10 +11,9 @@ public class Hashset_2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Inserire quanti numeri  vuoi controllare nel set  set");
         int howManyNumbers = scanner.nextInt();
-        Integer check = null;
         for (int j = 0; j < howManyNumbers; j++) {
             System.out.println("Inserire quale  numeri vuoi controllare nel set");
-            check = scanner.nextInt();
+           Integer check = scanner.nextInt();
             if (hashSet.contains(check)) {
                 System.out.println(check + " è presente nel set");
             } else {
