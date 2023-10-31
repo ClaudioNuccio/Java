@@ -1,11 +1,10 @@
 package Java;
 
-import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 import java.util.Set;
 
-public class Set_1 {
+public class Hashset_1 {
    public static void myHashSet () {
        Set <Integer> numeri = new HashSet<Integer>();
        Scanner scanner = new Scanner(System.in);
