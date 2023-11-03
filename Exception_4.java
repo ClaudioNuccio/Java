@@ -7,11 +7,10 @@ import java.util.Scanner;
 public class Exception_4 {
 
     public static void myException(int[] array) {
-        int index;
         try {
             Scanner scanner = new Scanner(System.in);
             System.out.println("Dimmi quale indice dell'array dividere");
-            index = scanner.nextInt();
+            int index = scanner.nextInt();
             System.out.println(array[index] / 0);
             if (index > array.length) {
                 throw new ArrayIndexOutOfBoundsException();
