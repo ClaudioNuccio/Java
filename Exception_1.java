@@ -11,11 +11,8 @@ public class Exception_1 {
 
             if (check <= limiteSuperiore && check >= limiteInferiore) {System.out.println(true);
             }
-            if (check > limiteSuperiore){
+            if (check > limiteSuperiore || check < limiteInferiore){
                throw new RuntimeException("Eccezione1");
-            }
-            if (check < limiteInferiore){
-                throw new RuntimeException("Eccezione2");
             }
             } catch (RuntimeException e){
             System.out.println("Il numero inserito è fuori dal range desiderato");
