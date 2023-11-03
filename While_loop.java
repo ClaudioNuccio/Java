@@ -2,7 +2,7 @@ package Java;
 
 public class While_loop {
 
-    public static void mySum(String[] args){
+    public static void mySumWhile(String[] args){
         int i = 0 ;
         int sum = 0 ;
         while (i < 10){
