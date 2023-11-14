@@ -4,7 +4,7 @@ public class Multidimensional_array1 {
         public static void createMultiArray (int multiArrayLength) {
             int sum = 0;
             Random r = new Random();
-            int[][] a = new int[x][x];
+            int[][] a = new int[multiArrayLength][multiArrayLength];
             for (int i = 0; i < a.length; i++) {
                 for (int j = 0; j < a.length; j++) {
                     a[i][j] = r.nextInt(10);
