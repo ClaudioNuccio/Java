@@ -2,10 +2,10 @@ package Java;
 
 public class While_loop {
 
-    public static void mySumWhile(int x){
+    public static void mySumWhile(int limiteSuperiore){
         int i = 0 ;
         int sum = 0 ;
-        while (i < x){
+        while (i < limiteSuperiore){
             sum =sum + i ;
             i++;
         }
