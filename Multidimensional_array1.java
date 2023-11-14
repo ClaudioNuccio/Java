@@ -1,7 +1,7 @@
 package Java;
 import java.util.Random;
 public class Multidimensional_array1 {
-    public static void main(String[] args) {
+        public static void createMultiArray () {
             int sum = 0;
             Random r = new Random();
             int[][] a = new int[3][3];
