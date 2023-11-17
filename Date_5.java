@@ -9,7 +9,7 @@ public class Date_5 {
         OffsetDateTime secondDate = OffsetDateTime.parse("2024-03-01T13:00:00Z");
         System.out.println("Is " + firstDate + " before " + secondDate + " ? " + firstDate.isBefore(secondDate));
         System.out.println("Is " + secondDate + " after "+ firstDate + " ? " + secondDate.isAfter(firstDate));
-        System.out.println("Is " + firstDate + " now ? " + (firstDate.equals(LocalDate.now())));
+        System.out.println("Is " + firstDate + " now ? " + firstDate.equals(LocalDate.now()));
         System.out.println("Is " + secondDate + " now? " + secondDate.equals(LocalDate.now()));
     }
 }
