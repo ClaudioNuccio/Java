@@ -7,6 +7,7 @@ import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 
 public class Date_3 {
+
     public static void main (String []args){
         OffsetDateTime exercise = OffsetDateTime.parse("2023-03-01T13:00:00Z");
         System.out.println("The year is " + exercise.format(DateTimeFormatter.ofPattern("YYYY").withLocale(Locale.ITALY)));
