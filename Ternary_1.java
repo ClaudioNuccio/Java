@@ -11,8 +11,8 @@ public class Ternary_1 {
         }
 
         private static String checkString(String value) {
-            String result = value.length()  >= 10 ? "La lunghezza è maggiore o uguale a dieci" : "Lunghezza minore di 10";
-            return result;
+            return value.length()  >= 10 ? "La lunghezza è maggiore o uguale a dieci" : "Lunghezza minore di 10";
+
         }
     }
 
